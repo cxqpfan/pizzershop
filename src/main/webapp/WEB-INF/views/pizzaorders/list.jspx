@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_lazyman_roo_pizzershop_domain_PizzaOrder" items="${pizzaorders}" z="VstlQrbU8fAYSgHnOHQ0HEZ14PM=">
+        <table:table data="${pizzaorders}" delete="false" id="l_com_lazyman_roo_pizzershop_domain_PizzaOrder" path="/pizzaorders" update="false" z="yhps4fmAQ/b34iUI11LFfsCMVuE=">
+            <table:column id="c_com_lazyman_roo_pizzershop_domain_PizzaOrder_name" property="name" z="M6oK0XAnl9iy0HbI///8naVKMGA="/>
+            <table:column id="c_com_lazyman_roo_pizzershop_domain_PizzaOrder_address" property="address" z="BMcfXupHZL24mVEdZP6VmStchh4="/>
+            <table:column id="c_com_lazyman_roo_pizzershop_domain_PizzaOrder_total" property="total" z="19KZzLz4Eg+KSoIPLLe+/x9uNyo="/>
+            <table:column date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" id="c_com_lazyman_roo_pizzershop_domain_PizzaOrder_deliveryDate" property="deliveryDate" z="XZ9aCYa48a8LTK+y5MJEzIkkd+A="/>
+            <table:column id="c_com_lazyman_roo_pizzershop_domain_PizzaOrder_pizzas" property="pizzas" z="dpW3MmCIu+/oTC3qLAdcYS6IH8A="/>
+        </table:table>
+    </page:list>
+</div>

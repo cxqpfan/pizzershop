@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show delete="false" id="ps_com_lazyman_roo_pizzershop_domain_PizzaOrder" object="${pizzaorder}" path="/pizzaorders" update="false" z="Jqz3QYdtEajp9sxhm+Eit2TqfZQ=">
+        <field:display field="name" id="s_com_lazyman_roo_pizzershop_domain_PizzaOrder_name" object="${pizzaorder}" z="1wJHUlZLQV/5zQkeOQyY/2GPFZw="/>
+        <field:display field="address" id="s_com_lazyman_roo_pizzershop_domain_PizzaOrder_address" object="${pizzaorder}" z="0zsZeek8qrom6nHXKEJcFg4PyII="/>
+        <field:display field="total" id="s_com_lazyman_roo_pizzershop_domain_PizzaOrder_total" object="${pizzaorder}" z="8uJgp7n1IQD1tl+zjN1X//GYCN0="/>
+        <field:display date="true" dateTimePattern="${pizzaOrder_deliverydate_date_format}" field="deliveryDate" id="s_com_lazyman_roo_pizzershop_domain_PizzaOrder_deliveryDate" object="${pizzaorder}" z="vS27RP5kd7IDfHqEoUVs82yfXbU="/>
+        <field:display field="pizzas" id="s_com_lazyman_roo_pizzershop_domain_PizzaOrder_pizzas" object="${pizzaorder}" z="kxaamJAv2PCYUGhdugs6X/SNak0="/>
+    </page:show>
+</div>
